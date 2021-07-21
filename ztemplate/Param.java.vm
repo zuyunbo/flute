@@ -1,0 +1,20 @@
+package com.cloud.param;
+
+import lombok.Data;
+
+
+/**
+ * ${comments}
+ *
+ * @author ${author} ${email}
+ * @since ${version} ${date}
+ */
+@Data
+public class ${className}Param {
+
+    private int ps;
+
+    private int pn;
+
+
+}

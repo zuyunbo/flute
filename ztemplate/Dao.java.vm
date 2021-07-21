@@ -1,0 +1,24 @@
+package com.cloud.mapper;
+
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import ${package}.${moduleName}.${className};
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+import com.cloud.param.${className}Param;
+
+
+/**
+ *
+ * @author ${author} ${email}
+ * @since ${version} ${date}
+ */
+@Repository
+public interface ${className}Mapper extends BaseMapper<${className}> {
+
+
+    List<${className}> listQuery(${className}Param queryParam);
+
+}

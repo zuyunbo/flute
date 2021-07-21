@@ -1,0 +1,37 @@
+package ${package}.${moduleName};
+
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Builder;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+
+/**
+ *
+ * @author ${author} ${email}
+ * @since ${version} ${date}
+ */
+@Data
+@EqualsAndHashCode(callSuper = false)
+@Builder
+@Api(description = "${tableName}")
+public class ${className} {
+private static final long serialVersionUID=1L;
+
+private Long id;
+
+#foreach ($column in $columns)
+    #if($column.columnName != 'id' && $column.columnName != 'creator' && $column.columnName != 'create_date')
+
+
+
+
+    /**
+     * $column.comments
+     */
+    @ApiModelProperty("$column.comments")
+    private $column.attrType $column.addrNames;
+    #end
+#end
+}
