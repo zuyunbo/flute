@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.flute</groupId>
-        <artifactId>flute</artifactId>
+        <groupId>com.data</groupId>
+        <artifactId>data-centre</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <groupId>com.cloud</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>data-centre-biz</artifactId>
     <version>0.1-SNAPSHOT</version>
 
 
@@ -19,6 +19,11 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>com.cloud</groupId>
+            <artifactId>data-centre-entity</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
 
     </dependencies>

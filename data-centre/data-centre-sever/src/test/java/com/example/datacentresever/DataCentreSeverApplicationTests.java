@@ -1,10 +1,10 @@
-package com.cloud.data;
+package com.example.datacentresever;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DataCentreEntityApplicationTests {
+class DataCentreSeverApplicationTests {
 
     @Test
     void contextLoads() {

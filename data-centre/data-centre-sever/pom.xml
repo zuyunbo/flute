@@ -7,24 +7,20 @@
         <artifactId>data-centre</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-    <groupId>com.cloud</groupId>
-    <artifactId>data-centre-controller</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>data-centre-sever</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
-
         <dependency>
             <groupId>com.cloud</groupId>
-            <artifactId>data-centre-biz</artifactId>
-            <version>0.1-SNAPSHOT</version>
+            <artifactId>data-centre-controller</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
     </dependencies>
-
 
 
 </project>
