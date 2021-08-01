@@ -4,6 +4,6 @@ spring:
     name: mall-store
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.105.35.98:3306/cloud_code1?serverTimezone=GMT%2B8
+    url: jdbc:mysql://47.105.35.98:3306/flute?serverTimezone=GMT%2B8
     username: root
     password: 123456

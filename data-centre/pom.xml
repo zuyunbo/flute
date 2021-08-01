@@ -13,6 +13,13 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>data-centre-biz</module>
+        <module>data-centre-controller</module>
+        <module>data-centre-entity</module>
+        <module>data-centre-sever</module>
+
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
@@ -21,18 +28,11 @@
     </properties>
 
     <dependencies>
-
-
-
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>${mybatis-plus-boot-starter.version}</version>
         </dependency>
-
-
     </dependencies>
-
-
 
 </project>
