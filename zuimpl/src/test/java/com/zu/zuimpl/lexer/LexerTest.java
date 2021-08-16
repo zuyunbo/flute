@@ -8,6 +8,8 @@ import java.util.Collections;
 import static com.zu.zuimpl.TestHelper.lex;
 import static com.zu.zuimpl.lexer.Lexer.number;
 import static com.zu.zuimpl.lexer.Lexer.token;
+import static com.zu.zuimpl.lexer.Lexer.id;
+
 import static org.junit.Assert.assertEquals;
 
 public class LexerTest {
@@ -32,6 +34,11 @@ public class LexerTest {
                         token(')'),
                         token('*'),
                         number(2)));
+    }
+
+    @Test
+    public void lex_id() throws Exception {
+        assertEquals(lex("max abc123"), Arrays.asList(id("max"), id("abc123")));
     }
 
 }

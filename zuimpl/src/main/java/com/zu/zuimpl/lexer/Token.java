@@ -14,4 +14,26 @@ public class Token {
         this.value = value;
     }
 
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Token token = (Token) o;
+
+        if (tokenType != token.tokenType) return false;
+        return value != null ? value.equals(token.value) : token.value == null;
+
+    }
+
+
+
+
+    @Override
+    public String toString() {
+        return String.format("%s<%s>", tokenType, value == null ? "" : value.toString());
+    }
+
 }
