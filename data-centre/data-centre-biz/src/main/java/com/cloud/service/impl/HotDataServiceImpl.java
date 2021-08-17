@@ -8,13 +8,7 @@ import com.cloud.entity.HotData;
 import com.cloud.mapper.HotDataMapper;
 import com.cloud.service.HotDataService;
 
-
-import java.util.List;
-
 import org.springframework.stereotype.Service;
-
-
-import java.util.Map;
 
 /**
  * ${comments}

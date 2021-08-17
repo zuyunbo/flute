@@ -1,3 +1,4 @@
+
 package com.cloud.controller;
 
 import com.cloud.cloudbaseutil.base.controller.GeneratorController;
@@ -24,4 +25,11 @@ public class GeneratorDemoController implements GeneratorController<GeneratorDem
 
     }
 
+    public static void main(String[] args) {
+        long l = System.currentTimeMillis();
+        System.out.println(l);
+
+    }
+
 }
+
