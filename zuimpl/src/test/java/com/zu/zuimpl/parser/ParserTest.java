@@ -39,6 +39,7 @@ public class ParserTest {
     @Test
     public void parse_with_parens() throws Exception {
         Node node = parse("1 * (2 + 3)");
+        System.out.println("测试分之");
 
         assertEquals(node, expr('*', num(1), expr('+', num(2), num(3))));
     }
