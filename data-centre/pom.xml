@@ -18,7 +18,6 @@
         <module>data-centre-controller</module>
         <module>data-centre-entity</module>
         <module>data-centre-sever</module>
-
     </modules>
 
     <properties>
